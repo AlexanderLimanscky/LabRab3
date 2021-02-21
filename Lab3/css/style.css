@@ -1,0 +1,41 @@
+
+@font-face {
+	font-family: 'Conv_AlegreyaSC-ExtraBold';
+	src: url('../fonts/AlegreyaSC-ExtraBold.eot');
+	src: local('☺'), url('../fonts/AlegreyaSC-ExtraBold.woff') format('woff'), url('../fonts/AlegreyaSC-ExtraBold.ttf') format('truetype'), url('../fonts/AlegreyaSC-ExtraBold.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+html{
+	background-image: url("../img/phone.jpg");
+}
+h1,h2,h3,h4,h5,h6{
+	text-align:center;
+	/*float:none;*//*обтекание элемента left|right|none|inherit*/
+	color:gold;
+	font-weight:900;
+}
+table {
+   border: 3px solid #000;
+   background-color: #4F2282;
+   margin: 40px;
+
+}
+td,th, caption{
+   border: 3px solid #000;
+   background-color: #BA8C56;
+   text-align: center;
+   font-weight:600;
+   font-family: Conv_AlegreyaSC-ExtraBold;
+}
+th{
+	background-color: #226E32;
+	padding:10px;
+}
+td{
+	padding:5px;
+}
+caption{
+	color:darkred;
+	background-color: grey;
+}
